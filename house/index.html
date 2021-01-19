@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <title>reno</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<header id="header">
+    <div class="center">
+        <h1 class="logo"></h1>
+        <nav class="link">
+            <h2 class="none">reno</h2>
+            <ul>
+             <li><a href="tencent://message/?uin=">QQ</a></li>
+             <li><a href="https://wx.qq.com/" target="_blank">微信</a></li>
+             <li><a href="https://github.com/" target="_blank">Github</a></li>
+             <li><a href="https://www.cnblogs.com/" target="_blank">博客园</a></li>
+             <li><a href="https://www.csdn.net/" target="_blank">CSDN</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<div id="search">
+    <div class="center"></div>
+    <form onsubmit="return baiduWithHttps(this)" action="http://www.baidu.com/baidu" target="_blank">
+        <input name="tn" type="hidden" value="SE_zzsearchcode_shhzc78w">
+        <a href="https://www.baidu.com/" target="_blank"></a>
+        <input type="text"  onfocus="checkHttps" placeholder="输入搜索相关内容" class="search" name="word"  size="30">
+        <button type="submit" value="搜索" class="button">搜索</button>
+    </form>
+    <script src="http://s1.bdstatic.com/r/www/cache/global/js/BaiduHttps_20150714_zhanzhang.js"></script>
+    <script>
+        function checkHttps () {
+            BaiduHttps.useHttps();
+        }
+        function baiduWithHttps (formname) {
+            var data = BaiduHttps.useHttps();
+            if (data.s === 0) {
+                return true;
+            }
+            else {
+                formname.action = 'https://www.baidu.com/baidu' + '?ssl_s=1&ssl_c' + data.ssl_code;
+                return true;
+            }
+        }
+    </script>
+</div>
+
+<div id="menu">
+<section  class="center">
+    <h2>常用房产</h2>
+</section>
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="http://sh.centanet.com/?sem=baidu&hmpl=pz" target="_blank" alt="中原地产">中原地产</a></strong></span>
+            <em class="sat">中原地产</em>
+        </div>
+    </figure>
+
+     <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="http://sh.fang.com/?s=BDPZ-BL" target="_blank" alt="房天下">房天下</a></strong></span>
+            <em class="sat">房天下</em>
+        </div>
+    </figure>
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="https://sh.ke.com/?utm_source=baidu&utm_medium=pinzhuan&utm_term=biaoti&utm_content=biaotimiaoshu&utm_campaign=sousuo" target="_blank" alt="贝壳找房">贝壳找房</a></strong></span>
+            <em class="sat">贝壳找房</em>
+        </div>
+    </figure>
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="https://www.qfang.com/index.html?utm_source=baidu&utm_medium=PZ&utm_term=PC-biaoti" target="_blank" alt="Q房网">Q房网</a></strong></span>
+            <em class="sat">Q房网</em>
+        </div>
+    </figure>
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="https://sh.lianjia.com/" target="_blank" alt="链家网">链家网</a></strong></span>
+            <em class="sat">链家网</em>
+        </div>
+    </figure>
+
+      <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="https://sh.5i5j.com/" target="_blank" alt="我爱我家">我爱我家</a></strong></span>
+            <em class="sat">我爱我家</em>
+        </div>
+    </figure>
+
+
+
+       <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="http://www.newsmth.net/nForum/#!mainpage" target="_blank" alt="水木社区">水木社区</a></strong></span>
+            <em class="sat">水木社区</em>
+        </div>
+    </figure>
+
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="http://www.chunzhen.net.cn/" target="_blank" alt="纯真找房">纯真找房</a></strong></span>
+            <em class="sat">纯真找房</em>
+        </div>
+    </figure>
+
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="http://www.idiqing.com/portal.php" target="_blank" alt="爱帝知识">爱帝知识</a></strong></span>
+            <em class="sat">爱帝知识</em>
+        </div>
+    </figure>
+
+
+      <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="http://www.tmsf.com/index.jsp" target="_blank" alt="透明售房网">透明售房网</a></strong></span>
+            <em class="sat">透明售房网</em>
+        </div>
+    </figure>
+
+     <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="http://www.dafangya.com/" target="_blank" alt="大房鸭">大房鸭</a></strong></span>
+            <em class="sat">大房鸭</em>
+        </div>
+    </figure>
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="http://www.zhuge.com/" target="_blank" alt="诸葛找房">诸葛找房</a></strong></span>
+            <em class="sat">诸葛找房</em>
+        </div>
+    </figure>
+
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="上海松江泗泾买房.txt" target="_blank" alt="上海松江泗泾买房">上海松江泗泾买房</a></strong></span>
+            <em class="sat">上海松江泗泾买房</em>
+        </div>
+    </figure>
+
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="北京市存量房屋买卖合同（正式版）.docx" target="_blank" alt="北京市存量房屋买卖合同（正式版）">北京市存量房屋买卖合同（正式版）</a></strong></span>
+            <em class="sat">北京市存量房屋买卖合同（正式版）</em>
+        </div>
+    </figure>
+
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="北京市住租房赁合同示范文本.doc" target="_blank" alt="北京市住租房赁合同示范文本">北京市住租房赁合同示范文本</a></strong></span>
+            <em class="sat">北京市住租房赁合同示范文本</em>
+        </div>
+    </figure>
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="小胖看房.pdf" target="_blank" alt="小胖看房">小胖看房</a></strong></span>
+            <em class="sat">小胖看房</em>
+        </div>
+    </figure>
+
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="回迁房和商品房有哪些区别.pdf" target="_blank" alt="回迁房和商品房有哪些区别">回迁房和商品房有哪些区别</a></strong></span>
+            <em class="sat">回迁房和商品房有哪些区别</em>
+        </div>
+    </figure>
+
+    <figure>
+        <img src="" alt="">
+        <div>
+            <span class="score"><strong><a href="大黄鸭个人房产交易操作指南.pdf" target="_blank" alt="大黄鸭个人房产交易操作指南">大黄鸭个人房产交易操作指南</a></strong></span>
+            <em class="sat">大黄鸭个人房产交易操作指南</em>
+        </div>
+    </figure>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <figure></figure><figure></figure><figure></figure>
+
+
+</div>
+
+
+
+</body>
+</html>
